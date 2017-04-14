@@ -14,4 +14,6 @@ class Job < ApplicationRecord
         self.is_hidden = true
         save
     end
+
+    has_many :resumes
 end
